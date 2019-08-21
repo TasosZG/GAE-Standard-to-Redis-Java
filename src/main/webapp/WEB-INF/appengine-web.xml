@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <threadsafe>true</threadsafe>
+  <ssl-enabled>true</ssl-enabled>
+  <service>connect-to-redis</service>
+  <runtime>java8</runtime>
+    <vpc-access-connector>
+       <name>projects/PROJECT_ID/locations/us-central1/connectors/VPC_CONNECTOR_NAME</name>
+    </vpc-access-connector>
+</appengine-web-app>
