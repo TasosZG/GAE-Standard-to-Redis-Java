@@ -5,6 +5,6 @@
   <service>connect-to-redis</service>
   <runtime>java8</runtime>
     <vpc-access-connector>
-       <name>projects/PROJECT_ID/locations/us-central1/connectors/VPC_CONNECTOR_NAME</name>
+       <name>projects/PROJECT_ID/locations/REGION/connectors/VPC_CONNECTOR_NAME</name>
     </vpc-access-connector>
 </appengine-web-app>
